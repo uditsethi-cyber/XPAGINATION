@@ -31,6 +31,7 @@ const EmployeeTable = () => {
       const data = await response.json();
       return data;
     } catch (error) {
+      alert("failed to fetch data");
       return [];
     }
   };
