@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  button {
+    background-color: lightgreen;
+    color: white;
+  }
+  div {
+    background-color: lightgreen;
+    color: white;
+    width: 40px;
+  }
+}
+.data-table {
+  width: 100%;
+  border: 1px solid lightgreen;
+  tr {
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+  }
+}
